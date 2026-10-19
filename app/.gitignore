@@ -1,0 +1,110 @@
+# Bytecode and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.env.example
+.env
+pyvenv.cfg
+
+# Environment variables and secrets
+.env
+.env.example    
+.flaskenv  # if using Flask alongside FastAPI
+*.pem
+*.key
+*.crt
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+desktop.ini
+.vscode/
+.idea/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Jupyter notebooks (if used)
+.ipynb_checkpoints/
+
+# MyPy
+.mypy_cache/
+
+# Pydantic (generated files)
+.pydantic/
+
+# Docker (optional)
+.dockerignore
+
+# Project-specific (e.g., FastAPI)
+# If you're using uvicorn with --reload, you might have a .pid file
+*.pid
+
+# Outputs from documentation builds
+docs/_build/
+
+# Alembic (if using SQLAlchemy migrations)
+alembic/versions/*.pyc
+alembic/versions/__pycache__/
+
+# Celery (if used)
+celerybeat-schedule
+celerybeat.pid
+
+# Redis dump (if using Redis)
+dump.rdb
+
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows thumbnail cache
+Thumbs.db
